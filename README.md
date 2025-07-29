@@ -1,6 +1,6 @@
 # Data Synchronization ETL Pipeline
 
-A real-time ETL pipeline to synchronize data between **MySQL**, **MongoDB**, and **Redis** using **Apache Kafka** and **Apache Spark**. This project was mentored by Đạt Đặng.
+A real-time ETL pipeline to synchronize data between **MySQL**, **MongoDB**, and **Redis** using **Apache Kafka** and **Apache Spark**.
 
 ## Overview
 This project captures data changes from MySQL via triggers, streams them through Kafka, processes and transforms data with Spark, and synchronizes results to MongoDB and Redis. It ensures data quality and runs continuously.
